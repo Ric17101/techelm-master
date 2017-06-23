@@ -650,8 +650,8 @@ public class ProjectJobViewPagerActivity extends FragmentActivity implements
                         task.setToIssueCar(spinnerToIssueCar.getSelectedItem().toString());
                         task.setNonConformance(editTextB1Remarks.getText().toString());
                         task.setCorrectiveActions(editTextCorrectiveAction.getText().toString());
-                        task.setTargetRemedyDate(editTextB2RectificationDate.getText().toString());
-                        // task.setCompletionDate();
+                        // task.setTargetRemedyDate(editTextB2RectificationDate.getText().toString());
+                        task.setCompletionDate(editTextB2RectificationDate.getText().toString());
                         task.setFormType(ipiTaskWrapper.getFormType());
 
                         getFragmentIPITaskList().startPostB2ProjectJobFormA(task, dialog);
@@ -805,13 +805,15 @@ public class ProjectJobViewPagerActivity extends FragmentActivity implements
             }
         });
         editTextB2B3TargetCompletionDate = (EditText) view.findViewById(R.id.editTextB2B3TargetCompletionDate);
-        editTextB2B3TargetCompletionDate.setOnClickListener(new View.OnClickListener() {
+        editTextB2B3TargetCompletionDate.setText(ipiTaskFinalWrapper.getTargetRemedyDate());
+        completionTargetDateClicked = 1;
+        /*editTextB2B3TargetCompletionDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 completionTargetDateClicked = 1;
-                showDatePickerDialog();
+                // showDatePickerDialog();
             }
-        });
+        });*/
 
         // Showing the Dialog in InterfaceHolder implemented in this Activity
         InterfaceDialogHolder.set(md2);

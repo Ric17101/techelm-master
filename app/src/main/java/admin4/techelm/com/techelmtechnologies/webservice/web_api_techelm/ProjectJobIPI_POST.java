@@ -73,7 +73,7 @@ public class ProjectJobIPI_POST {
         webServiceInfo.addParam("nonconformance", ipiTaskWrapper.getNonConformance());
         webServiceInfo.addParam("description", ipiTaskWrapper.getCorrectiveActions());
         webServiceInfo.addParam("completion_date", DateUtil.formatDate(ipiTaskWrapper.getCompletionDate()));
-        webServiceInfo.addParam("target_remedy_date", DateUtil.formatDate(ipiTaskWrapper.getTargetRemedyDate()));
+        // webServiceInfo.addParam("target_remedy_date", DateUtil.formatDate(ipiTaskWrapper.getTargetRemedyDate()));
 
         webServiceInfo.addParam("form_type", ipiTaskWrapper.getFormType());
 

@@ -17,6 +17,8 @@ public class DateUtil {
      * @return
      */
     public static String formatDate(String date) {
+        /*if (date == null)
+            return date;*/
         if (date.isEmpty() || date.equals(""))
             return date;
 

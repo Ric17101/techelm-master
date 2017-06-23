@@ -70,6 +70,22 @@
             android:scrollbars="vertical"
             android:textSize="@dimen/subTitleTextSize" />
 
+        <!--<EditText
+            android:id="@+id/editTextB2B3TargetCompletionDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp"
+            android:background="@color/white"
+            android:fadeScrollbars="false"
+            android:focusable="false"
+            android:gravity="top|start"
+            android:hint="Target Completion Date DD/MM/YYYY"
+            android:overScrollMode="always"
+            android:scrollHorizontally="false"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/subTitleTextSize" />-->
+
     </android.support.design.widget.TextInputLayout>
 
     <TextView
