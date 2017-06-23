@@ -56,9 +56,10 @@ public class IPI_TaskWrapper implements Parcelable {
     private String _status;
     private String _non_conformance;
     private String _corrective_actions;
-    private String _target_completion_date;
+    private String target_remedy_date;
     private String _status_flag;
     private String _form_type;
+    private String _completion_date;
 
     // Mobile Inputs
      private String _to_issue_car;
@@ -74,10 +75,10 @@ public class IPI_TaskWrapper implements Parcelable {
         _status = in.readString();
         _non_conformance = in.readString();
         _corrective_actions = in.readString();
-        _target_completion_date = in.readString();
+        target_remedy_date = in.readString();
         _status_flag = in.readString();
         _form_type = in.readString();
-        //_target_date = in.readString();
+        _completion_date = in.readString();
     }
 
     @Override
@@ -89,10 +90,10 @@ public class IPI_TaskWrapper implements Parcelable {
         dest.writeString(_status);
         dest.writeString(_non_conformance);
         dest.writeString(_corrective_actions);
-        dest.writeString(_target_completion_date);
+        dest.writeString(target_remedy_date);
         dest.writeString(_status_flag);
         dest.writeString(_form_type);
-        //dest.writeString(_target_date);
+        dest.writeString(_completion_date);
     }
 
     @Override
@@ -108,10 +109,10 @@ public class IPI_TaskWrapper implements Parcelable {
                 "\n_status : " + this._status +
                 "\n_non_conformance : " + this._non_conformance +
                 "\n_corrective_actions : " + this._corrective_actions +
-                "\n_target_completion_date : " + this._target_completion_date +
+                "\ntarget_remedy_date : " + this.target_remedy_date +
                 "\n_status_flag : " + this._status_flag +
-                "\n_form_type : " + this._form_type
-                //"\n_target_date : " + this._target_date
+                "\n_form_type : " + this._form_type +
+                "\n_completion_date : " + this._completion_date
                 ;
     }
 
@@ -164,11 +165,9 @@ public class IPI_TaskWrapper implements Parcelable {
         this._corrective_actions = val;
     }
 
-    public String getTargetCompletionDate() {
-        return this._target_completion_date;
-    }
-    public void setTargetCompletionDate(String data) {
-        this._target_completion_date = data;
+    public String getTargetRemedyDate() { return this.target_remedy_date; }
+    public void setTargetRemedyDate(String data) {
+        this.target_remedy_date = data;
     }
 
     public String getStatusFlag() {
@@ -186,8 +185,6 @@ public class IPI_TaskWrapper implements Parcelable {
     }
     public void setToIssueCar(String val) { this._to_issue_car = val; }
 
-//    public String getCompletionDate() {
-//        return this._target_date;
-//    }
-//    public void setCompletionDate(String data) { this._target_date = data; }
+    public String getCompletionDate() { return this._completion_date; }
+    public void setCompletionDate(String data) { this._completion_date = data; }
 }

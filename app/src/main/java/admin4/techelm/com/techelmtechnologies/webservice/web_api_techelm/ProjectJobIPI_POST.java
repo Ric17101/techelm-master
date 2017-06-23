@@ -66,14 +66,14 @@ public class ProjectJobIPI_POST {
             case "YES" :
                 ipiTaskWrapper.setNonConformance("");
                 ipiTaskWrapper.setCorrectiveActions("");
-                ipiTaskWrapper.setTargetCompletionDate("");
+                ipiTaskWrapper.setTargetRemedyDate("");
                 break;
             default : break;
         }
         webServiceInfo.addParam("nonconformance", ipiTaskWrapper.getNonConformance());
         webServiceInfo.addParam("description", ipiTaskWrapper.getCorrectiveActions());
-        webServiceInfo.addParam("completion_date", DateUtil.formatDate(ipiTaskWrapper.getTargetCompletionDate()));
-        // webServiceInfo.addParam("target_remedy_date", DateUtil.formatDate(ipiTaskWrapper.getD()));
+        webServiceInfo.addParam("completion_date", DateUtil.formatDate(ipiTaskWrapper.getCompletionDate()));
+        webServiceInfo.addParam("target_remedy_date", DateUtil.formatDate(ipiTaskWrapper.getTargetRemedyDate()));
 
         webServiceInfo.addParam("form_type", ipiTaskWrapper.getFormType());
 

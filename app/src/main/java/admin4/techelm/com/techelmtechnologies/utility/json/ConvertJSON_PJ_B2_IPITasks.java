@@ -71,7 +71,7 @@ public class ConvertJSON_PJ_B2_IPITasks {
             pw.setStatusComment(jsonArray.getJSONObject(i).getString("status"));
             pw.setNonConformance(jsonArray.getJSONObject(i).getString("non_conformance"));
             pw.setCorrectiveActions(jsonArray.getJSONObject(i).getString("corrective_actions"));
-            pw.setTargetCompletionDate(jsonArray.getJSONObject(i).getString("target_completion_date"));
+            pw.setTargetRemedyDate(jsonArray.getJSONObject(i).getString("target_completion_date"));
             pw.setStatusFlag(jsonArray.getJSONObject(i).getString("status_flag"));
             pw.setFormType(jsonArray.getJSONObject(i).getString("form_type"));
 
@@ -108,7 +108,7 @@ public class ConvertJSON_PJ_B2_IPITasks {
             sw.setStatusComment(pieces[4]);
             sw.setNonConformance(pieces[5]);
             sw.setCorrectiveActions(pieces[6]);
-            sw.setTargetCompletionDate(pieces[7]);
+            sw.setTargetRemedyDate(pieces[7]);
             sw.setStatusFlag(pieces[8]);
             sw.setFormType(pieces[9]);
             translationList.add(sw);

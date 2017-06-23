@@ -650,7 +650,8 @@ public class ProjectJobViewPagerActivity extends FragmentActivity implements
                         task.setToIssueCar(spinnerToIssueCar.getSelectedItem().toString());
                         task.setNonConformance(editTextB1Remarks.getText().toString());
                         task.setCorrectiveActions(editTextCorrectiveAction.getText().toString());
-                        task.setTargetCompletionDate(editTextB2RectificationDate.getText().toString());
+                        task.setTargetRemedyDate(editTextB2RectificationDate.getText().toString());
+                        // task.setCompletionDate();
                         task.setFormType(ipiTaskWrapper.getFormType());
 
                         getFragmentIPITaskList().startPostB2ProjectJobFormA(task, dialog);
