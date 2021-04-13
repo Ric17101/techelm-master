@@ -30,7 +30,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -42,7 +42,7 @@
                     android:gravity="fill_vertical"
                     android:hint="Input attendee's name"
                     android:textSize="14sp" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -144,7 +144,7 @@
             android:textSize="14sp"
             android:textStyle="normal|bold" />
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/upload_results_toolbox_meeting_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

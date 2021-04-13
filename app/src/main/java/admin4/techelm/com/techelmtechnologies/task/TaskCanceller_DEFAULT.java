@@ -27,6 +27,10 @@ import android.os.Handler;
     so I forced the handler to be an the UI Thread with
             handler= new Handler(Looper.getMainLooper());
  */
+/**
+ * @deprecated NOT USED
+ */
+@Deprecated
 public class TaskCanceller_DEFAULT implements Runnable {
     private AsyncTask task;
 

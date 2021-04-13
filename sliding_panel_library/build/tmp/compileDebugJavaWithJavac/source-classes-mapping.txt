@@ -1,0 +1,18 @@
+com/sothree/slidinguppanel/ScrollableViewHelper.java
+ com.sothree.slidinguppanel.ScrollableViewHelper
+com/sothree/slidinguppanel/SlidingUpPanelLayout.java
+ com.sothree.slidinguppanel.SlidingUpPanelLayout
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$1
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$2
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$DragHelperCallback
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$LayoutParams
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$PanelSlideListener
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$PanelState
+ com.sothree.slidinguppanel.SlidingUpPanelLayout$SimplePanelSlideListener
+com/sothree/slidinguppanel/ViewDragHelper.java
+ com.sothree.slidinguppanel.ViewDragHelper
+ com.sothree.slidinguppanel.ViewDragHelper$1
+ com.sothree.slidinguppanel.ViewDragHelper$2
+ com.sothree.slidinguppanel.ViewDragHelper$Callback
+com/sothree/slidinguppanel/library/BuildConfig.java
+ com.sothree.slidinguppanel.library.BuildConfig

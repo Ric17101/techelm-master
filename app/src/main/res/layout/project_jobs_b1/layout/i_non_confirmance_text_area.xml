@@ -13,7 +13,7 @@
         android:textSize="@dimen/topTitleTextSize"
         android:textStyle="normal|bold" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -34,5 +34,5 @@
             android:scrollbarStyle="insideInset"
             android:scrollbars="vertical"
             android:textAppearance="?android:attr/textAppearanceMedium" />
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 </LinearLayout>

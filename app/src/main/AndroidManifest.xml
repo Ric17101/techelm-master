@@ -15,7 +15,7 @@
 
     <!--android:hardwareAccelerated="true"-->
     <application
-        android:name="android.support.multidex.MultiDexApplication"
+        android:name="androidx.multidex.MultiDexApplication"
         android:largeHeap="true"
         android:hardwareAccelerated="true"
         android:allowBackup="true"

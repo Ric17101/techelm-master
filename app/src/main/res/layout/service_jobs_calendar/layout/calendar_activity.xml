@@ -18,7 +18,7 @@
         android:orientation="vertical"
         android:padding="@dimen/recycler_view_list_padding">
 
-        <android.support.v4.widget.SwipeRefreshLayout
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipeRefreshCalendarLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -62,7 +62,7 @@
                     android:layout_below="@+id/robotoCalendarPicker">
 
                     <!-- ServiceJob Task View List-->
-                    <android.support.v7.widget.RecyclerView
+                    <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/calendar_service_job_list"
 
                         android:layout_width="match_parent"
@@ -86,7 +86,7 @@
 
             </RelativeLayout>
 
-        </android.support.v4.widget.SwipeRefreshLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 
     </FrameLayout>

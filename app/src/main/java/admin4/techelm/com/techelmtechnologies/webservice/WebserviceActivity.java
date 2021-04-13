@@ -1,13 +1,12 @@
 package admin4.techelm.com.techelmtechnologies.webservice;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import admin4.techelm.com.techelmtechnologies.R;
-import admin4.techelm.com.techelmtechnologies.webservice.WebServiceRequest;
 import admin4.techelm.com.techelmtechnologies.webservice.command.GetCommand;
 import admin4.techelm.com.techelmtechnologies.webservice.command.PostCommand;
 import admin4.techelm.com.techelmtechnologies.webservice.interfaces.OnServiceListener;

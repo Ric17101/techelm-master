@@ -1,0 +1,30 @@
+com/github/gcacace/signaturepad/utils/Bezier.java
+ com.github.gcacace.signaturepad.utils.Bezier
+com/github/gcacace/signaturepad/utils/SvgPathBuilder.java
+ com.github.gcacace.signaturepad.utils.SvgPathBuilder
+com/github/gcacace/signaturepad/view/ViewCompat.java
+ com.github.gcacace.signaturepad.view.ViewCompat
+com/github/gcacace/signaturepad/utils/SvgBuilder.java
+ com.github.gcacace.signaturepad.utils.SvgBuilder
+com/github/gcacace/signaturepad/utils/ControlTimedPoints.java
+ com.github.gcacace.signaturepad.utils.ControlTimedPoints
+com/github/gcacace/signaturepad/views/SignaturePad.java
+ com.github.gcacace.signaturepad.views.SignaturePad
+ com.github.gcacace.signaturepad.views.SignaturePad$1
+ com.github.gcacace.signaturepad.views.SignaturePad$OnSignedListener
+com/github/gcacace/signaturepad/view/ViewTreeObserverCompat.java
+ com.github.gcacace.signaturepad.view.ViewTreeObserverCompat
+com/github/gcacace/signaturepad/utils/TimedPoint.java
+ com.github.gcacace.signaturepad.utils.TimedPoint
+com/github/gcacace/signaturepad/BuildConfig.java
+ com.github.gcacace.signaturepad.BuildConfig
+com/github/gcacace/signaturepad/DataBindingTriggerClass.java
+ com.github.gcacace.signaturepad.DataBindingTriggerClass
+com/github/gcacace/signaturepad/utils/SignaturePadBindingAdapter.java
+ com.github.gcacace.signaturepad.utils.SignaturePadBindingAdapter
+ com.github.gcacace.signaturepad.utils.SignaturePadBindingAdapter$1
+ com.github.gcacace.signaturepad.utils.SignaturePadBindingAdapter$OnClearListener
+ com.github.gcacace.signaturepad.utils.SignaturePadBindingAdapter$OnSignedListener
+ com.github.gcacace.signaturepad.utils.SignaturePadBindingAdapter$OnStartSigningListener
+com/github/gcacace/signaturepad/utils/SvgPoint.java
+ com.github.gcacace.signaturepad.utils.SvgPoint

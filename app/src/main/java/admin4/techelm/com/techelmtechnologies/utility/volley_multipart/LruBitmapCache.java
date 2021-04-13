@@ -1,7 +1,7 @@
 package admin4.techelm.com.techelmtechnologies.utility.volley_multipart;
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.support.v4.util.LruCache;
+import androidx.collection.LruCache;
 import android.util.DisplayMetrics;
 
 import com.android.volley.toolbox.ImageLoader;

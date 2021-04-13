@@ -12,15 +12,16 @@ if (bintrayPropertiesFile.exists()) properties.load(bintrayPropertiesFile.newDat
 
 android {
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
-    buildToolsVersion rootProject.ext.androidBuildToolsVersion
+    //buildToolsVersion rootProject.ext.androidBuildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.androidMinSdkVersion
         targetSdkVersion rootProject.ext.androidTargetSdkVersion
     }
 
-    dataBinding {
-        enabled = true
+    buildFeatures{
+        dataBinding = true // for data binding
+        viewBinding = true // for view binding
     }
 }
 

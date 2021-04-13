@@ -2,12 +2,12 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 dependencies {
-    compile "com.android.support:support-v4:${rootProject.ext.androidSupportLibVersion}"
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 
 android {
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
-    buildToolsVersion rootProject.ext.androidBuildToolsVersion
+    //buildToolsVersion rootProject.ext.androidBuildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.androidMinSdkVersion

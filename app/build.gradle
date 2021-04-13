@@ -2,17 +2,17 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
-    buildToolsVersion rootProject.ext.androidBuildToolsVersion
 
     defaultConfig {
         applicationId "admin4.techelm.com.techelmtechnologies"
         minSdkVersion rootProject.ext.androidMinSdkVersion
         targetSdkVersion rootProject.ext.androidTargetSdkVersion
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        def gitVersion = 1 + "git rev-list HEAD --count".execute().text.trim().toInteger()
+        versionCode gitVersion
+        versionName "1.1"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 
-        vectorDrawables.useSupportLibrary = true // finestwebview
+        vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
     }
     buildTypes {
@@ -45,77 +45,77 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile "com.android.support:appcompat-v7:${rootProject.ext.androidSupportLibVersion}"
-    compile "com.android.support:support-v13:${rootProject.ext.androidSupportLibVersion}"
-    testCompile 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
 
-    compile "com.android.support:design:${rootProject.ext.androidSupportLibVersion}"
+    implementation 'com.google.android.material:material:1.3.0'
 
     // NavigationDrawer/CheeseCake Dependencies
-    compile "com.android.support:cardview-v7:${rootProject.ext.androidSupportLibVersion}"
+    implementation 'androidx.cardview:cardview:1.0.0'
 
     // SQLite Dependency
-    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
 
     // GSON for JSON parsing
-    compile 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
 
     // Sliding up panel
-    compile project(path: ':sliding_panel_library')
+    implementation project(path: ':sliding_panel_library')
 
     // Signature Pad
-    compile project(path: ':signature_pad_library')
+    implementation project(path: ':signature_pad_library')
 
     // Dialog
-    compile 'com.afollestad.material-dialogs:core:0.9.3.0'
-    compile 'com.afollestad.material-dialogs:commons:0.9.3.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.3.0'
 
     // Image
-    compile 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
 
     // Recording
-    compile 'com.melnykov:floatingactionbutton:1.1.0'
+    implementation 'com.melnykov:floatingactionbutton:1.1.0'
 
     // TABSTRI
-    compile project(path: ':page_tab_library')
-    // compile 'com.jpardogo.materialtabstrip:library:1.1.1'
-    // compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    implementation project(path: ':page_tab_library')
+    // implementation 'com.jpardogo.materialtabstrip:library:1.1.1'
+    // implementation 'com.astuetz:pagerslidingtabstrip:1.0.1'
 
     // Calendar Dependencies
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'de.hdodenhof:circleimageview:1.3.0'
-    compile project(path: ':calendar_library')
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation project(path: ':calendar_library')
 
     // UPLOAD _FILE
-    compile 'com.android.volley:volley:1.0.0'
-    compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
+    implementation 'com.android.volley:volley:1.2.0'
+    implementation 'org.apache.directory.studio:org.apache.commons.io:2.4'
 
     // UPLOAD FILEv2
-//    compile 'net.gotev:uploadservice:3.2.3'
-//    compile 'net.gotev:uploadservice-okhttp:3.2.3'
+//    implementation 'net.gotev:uploadservice:3.2.3'
+//    implementation 'net.gotev:uploadservice-okhttp:3.2.3'
 
     // FINEST WEBVIEW
-    compile 'com.android.support:multidex:1.0.1'
-    // compile 'com.thefinestartist:finestwebview:1.2.7'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    //implementation project(path: ':finestwebview_library')
+    implementation 'com.thefinestartist:finestwebview:1.2.7'
 
     // PDF 1
-    compile project(path: ':pdf_library')
-    // compile 'com.github.hendrixstring:Android-PdfMyXml:1.0.1' // the latest version is "v1.0.1"
+    implementation project(path: ':pdf_library')
+    // implementation 'com.github.hendrixstring:Android-PdfMyXml:1.0.1' // the latest version is "v1.0.1"
 
     // Expandable Layout with Animation
-    compile 'com.github.aakira:expandable-layout:1.6.0@aar'
+    implementation 'com.github.aakira:expandable-layout:1.6.0@aar'
 
     // Image Download
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 
     // QRCode
-    compile project(path: ':zxing-orient')
+    implementation project(path: ':zxing-orient')
 
     // Image Zoom
-    compile 'com.alexvasilkov:gesture-views:2.3.0'
-    compile project(path: ':finestwebview_library')
+    implementation 'com.alexvasilkov:gesture-views:2.3.0'
 }
