@@ -1,0 +1,31 @@
+com/hendrix/pdfmyxml/viewRenderer/AbstractViewRenderer.java
+ com.hendrix.pdfmyxml.viewRenderer.AbstractViewRenderer
+com/hendrix/pdfmyxml/viewRenderer/IViewRenderer.java
+ com.hendrix.pdfmyxml.viewRenderer.IViewRenderer
+com/hendrix/pdfmyxml/viewRenderer/ViewRendererFactory.java
+ com.hendrix.pdfmyxml.viewRenderer.ViewRendererFactory
+com/hendrix/pdfmyxml/PdfDocument.java
+ com.hendrix.pdfmyxml.PdfDocument
+ com.hendrix.pdfmyxml.PdfDocument$1
+ com.hendrix.pdfmyxml.PdfDocument$1$1
+ com.hendrix.pdfmyxml.PdfDocument$A4_MODE
+ com.hendrix.pdfmyxml.PdfDocument$Builder
+ com.hendrix.pdfmyxml.PdfDocument$Callback
+com/hendrix/pdfmyxml/utils/MeasureUtils.java
+ com.hendrix.pdfmyxml.utils.MeasureUtils
+com/hendrix/pdfdroid/BuildConfig.java
+ com.hendrix.pdfdroid.BuildConfig
+com/hendrix/pdfmyxml/interfaces/IData.java
+ com.hendrix.pdfmyxml.interfaces.IData
+com/hendrix/pdfmyxml/interfaces/IDisposable.java
+ com.hendrix.pdfmyxml.interfaces.IDisposable
+com/hendrix/pdfmyxml/viewRenderer/SimpleViewRenderer.java
+ com.hendrix.pdfmyxml.viewRenderer.SimpleViewRenderer
+com/hendrix/pdfmyxml/interfaces/IId.java
+ com.hendrix.pdfmyxml.interfaces.IId
+com/hendrix/pdfmyxml/utils/BitmapUtils.java
+ com.hendrix.pdfmyxml.utils.BitmapUtils
+ com.hendrix.pdfmyxml.utils.BitmapUtils$1
+ com.hendrix.pdfmyxml.utils.BitmapUtils$ScaleMode
+com/hendrix/pdfmyxml/viewRenderer/RecycledViewRenderer.java
+ com.hendrix.pdfmyxml.viewRenderer.RecycledViewRenderer

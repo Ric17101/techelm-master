@@ -73,7 +73,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/margin_login_components">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -90,7 +90,7 @@
                         android:imeOptions="actionNext" >
                         <requestFocus />
                     </AutoCompleteTextView>
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
             </FrameLayout>
 
             <FrameLayout
@@ -99,7 +99,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/margin_login_components">
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -116,7 +116,7 @@
                         android:inputType="textPassword"
                         android:maxLines="1" />
 
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
             </FrameLayout>
 
             <FrameLayout

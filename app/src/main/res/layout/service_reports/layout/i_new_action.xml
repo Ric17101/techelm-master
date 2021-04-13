@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:text="Actions" />
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -51,7 +51,7 @@
                     android:id="@+id/spinnerActions"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <!-- GONE FIRST -->
             <!-- GONE FIRST -->

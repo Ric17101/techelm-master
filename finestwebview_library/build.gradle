@@ -1,10 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.neenbedankt.android-apt'
 apply plugin: 'com.novoda.bintray-release'
 
 android {
   compileSdkVersion rootProject.ext.androidCompileSdkVersion
-  buildToolsVersion rootProject.ext.androidBuildToolsVersion
+  //buildToolsVersion rootProject.ext.androidBuildToolsVersion
 
   compileOptions {
     sourceCompatibility rootProject.ext.androidSourceCompatibility
@@ -25,15 +24,15 @@ android {
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile "com.android.support:support-annotations:${rootProject.ext.androidSupportLibVersion}"
-  compile "com.android.support:appcompat-v7:${rootProject.ext.androidSupportLibVersion}"
-  compile "com.android.support:design:${rootProject.ext.androidSupportLibVersion}"
-  compile 'com.nineoldandroids:library:2.4.0'
-  compile 'com.thefinestartist:utils:0.9.0'
-  apt 'com.thefinestartist:compilers:0.9.0'
-  compile "com.android.support:animated-vector-drawable:${rootProject.ext.androidSupportLibVersion}"
-  compile "com.android.support:support-vector-drawable:${rootProject.ext.androidSupportLibVersion}"
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation "com.android.support:support-annotations:${rootProject.ext.androidSupportLibVersion}"
+  implementation "com.android.support:appcompat-v7:${rootProject.ext.androidSupportLibVersion}"
+  implementation "com.android.support:design:${rootProject.ext.androidSupportLibVersion}"
+  implementation 'com.nineoldandroids:library:2.4.0'
+  implementation 'com.thefinestartist:utils:0.9.0'
+  annotationProcessor 'com.thefinestartist:compilers:0.9.0'
+  implementation "com.android.support:animated-vector-drawable:${rootProject.ext.androidSupportLibVersion}"
+  implementation "com.android.support:support-vector-drawable:${rootProject.ext.androidSupportLibVersion}"
 }
 
 publish {

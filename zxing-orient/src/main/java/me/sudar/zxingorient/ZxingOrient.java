@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
+import androidx.fragment.app.Fragment;
 import com.google.zxing.client.android.Intents;
 
 public class ZxingOrient {
@@ -20,7 +21,7 @@ public class ZxingOrient {
 
     private final Activity activity;
     private final android.app.Fragment fragment;
-    private final android.support.v4.app.Fragment supportFragment;
+    private final Fragment supportFragment;
 
 //    private boolean autoFocus = true;
 //    private boolean flash = false;
@@ -51,7 +52,7 @@ public class ZxingOrient {
         initialize();
     }
 
-    public ZxingOrient(android.support.v4.app.Fragment supportFragment) {
+    public ZxingOrient(Fragment supportFragment) {
         this.activity = supportFragment.getActivity();
         this.fragment = null;
         this.supportFragment = supportFragment;

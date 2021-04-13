@@ -1,7 +1,7 @@
 package admin4.techelm.com.techelmtechnologies.webservice;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -14,7 +14,6 @@ import admin4.techelm.com.techelmtechnologies.webservice.model.WebResponse;
 import admin4.techelm.com.techelmtechnologies.webservice.model.WebServiceInfo;
 
 import static admin4.techelm.com.techelmtechnologies.utility.Constants.SERVICE_JOB_SEND_EMAIL_URL;
-import static admin4.techelm.com.techelmtechnologies.utility.Constants.SERVICE_JOB_URL;
 
 public class EmailWebserviceActivity extends AppCompatActivity {
     /*sample api credit to https://github.com/typicode/jsonplaceholder#how-to*/

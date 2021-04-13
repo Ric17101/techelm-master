@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+attr? clearOnDoubleClick
+attr? penColor
+attr? penMaxWidth
+attr? penMinWidth
+attr? velocityFilterWeight
+styleable SignaturePad penMinWidth penMaxWidth penColor velocityFilterWeight clearOnDoubleClick

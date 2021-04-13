@@ -17,7 +17,7 @@
         android:textSize="@dimen/topTitleTextSize"
         android:textStyle="normal|bold" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -39,7 +39,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="@dimen/subTitleTextSize" />
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView14"
@@ -50,7 +50,7 @@
         android:textSize="@dimen/topTitleTextSize"
         android:textStyle="normal|bold" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -86,7 +86,7 @@
             android:scrollbars="vertical"
             android:textSize="@dimen/subTitleTextSize" />-->
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView15"
@@ -97,7 +97,7 @@
         android:textSize="@dimen/topTitleTextSize"
         android:textStyle="normal|bold" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -116,7 +116,7 @@
             android:scrollbarStyle="insideInset"
             android:scrollbars="vertical"
             android:textSize="@dimen/subTitleTextSize" />
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView16"
@@ -127,7 +127,7 @@
         android:textSize="@dimen/topTitleTextSize"
         android:textStyle="normal|bold" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -148,7 +148,7 @@
             android:scrollbars="vertical"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="@dimen/subTitleTextSize" />
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView17"
@@ -159,7 +159,7 @@
         android:textSize="@dimen/topTitleTextSize"
         android:textStyle="normal|bold" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -177,6 +177,6 @@
             android:scrollbarStyle="insideInset"
             android:scrollbars="vertical"
             android:textSize="@dimen/subTitleTextSize" />
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>

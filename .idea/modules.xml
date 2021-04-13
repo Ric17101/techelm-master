@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/calendar_library/calendar_library.iml" filepath="$PROJECT_DIR$/calendar_library/calendar_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/finestwebview_library/finestwebview_library.iml" filepath="$PROJECT_DIR$/finestwebview_library/finestwebview_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/navigation-fragmentv2.iml" filepath="$PROJECT_DIR$/navigation-fragmentv2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/navigation-fragmentv2-master.iml" filepath="$PROJECT_DIR$/navigation-fragmentv2-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/page_tab_library/page_tab_library.iml" filepath="$PROJECT_DIR$/page_tab_library/page_tab_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pdf_library/pdf_library.iml" filepath="$PROJECT_DIR$/pdf_library/pdf_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/signature_pad_library/signature_pad_library.iml" filepath="$PROJECT_DIR$/signature_pad_library/signature_pad_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sliding_panel_library/sliding_panel_library.iml" filepath="$PROJECT_DIR$/sliding_panel_library/sliding_panel_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zxing-orient/zxing-orient.iml" filepath="$PROJECT_DIR$/zxing-orient/zxing-orient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/techelm-master.iml" filepath="$PROJECT_DIR$/.idea/techelm-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/techelm-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/techelm-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendar_library/techelm-master.calendar_library.iml" filepath="$PROJECT_DIR$/.idea/modules/calendar_library/techelm-master.calendar_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/page_tab_library/techelm-master.page_tab_library.iml" filepath="$PROJECT_DIR$/.idea/modules/page_tab_library/techelm-master.page_tab_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pdf_library/techelm-master.pdf_library.iml" filepath="$PROJECT_DIR$/.idea/modules/pdf_library/techelm-master.pdf_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/signature_pad_library/techelm-master.signature_pad_library.iml" filepath="$PROJECT_DIR$/.idea/modules/signature_pad_library/techelm-master.signature_pad_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sliding_panel_library/techelm-master.sliding_panel_library.iml" filepath="$PROJECT_DIR$/.idea/modules/sliding_panel_library/techelm-master.sliding_panel_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxing-orient/techelm-master.zxing-orient.iml" filepath="$PROJECT_DIR$/.idea/modules/zxing-orient/techelm-master.zxing-orient.iml" />
     </modules>
   </component>
 </project>

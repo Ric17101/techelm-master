@@ -22,7 +22,10 @@ import admin4.techelm.com.techelmtechnologies.webservice.model.WebServiceInfo;
 /**
  * Represents an asynchronous login/registration task used to authenticate
  * the user.
+ *
+ * @deprecated NOT USED
  */
+@Deprecated
 public class LoginActivityAuthenticationTask_OLD extends AsyncTask<Void, Void, Boolean> {
 
     public static final String TAG = LoginActivityAuthenticationTask_OLD.class.getSimpleName();

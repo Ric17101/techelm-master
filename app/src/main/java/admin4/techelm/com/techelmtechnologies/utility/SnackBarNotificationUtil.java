@@ -1,9 +1,7 @@
 package admin4.techelm.com.techelmtechnologies.utility;
 
-import android.support.design.widget.Snackbar;
+import com.google.android.material.snackbar.Snackbar;
 import android.view.View;
-
-import admin4.techelm.com.techelmtechnologies.R;
 
 /**
  * Created by admin 4 on 04/04/2017.

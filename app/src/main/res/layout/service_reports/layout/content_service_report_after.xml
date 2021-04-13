@@ -36,7 +36,7 @@
 
                 <include layout="@layout/i_image_upload_button" />
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/upload_results_service_job_list"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -47,7 +47,7 @@
 
                 <include layout="@layout/i_voice_record_button" />
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recording_results_service_job_list"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -66,7 +66,7 @@
                 <include layout="@layout/i_action_repair_service_layout" />
 
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/action_service_job_list"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

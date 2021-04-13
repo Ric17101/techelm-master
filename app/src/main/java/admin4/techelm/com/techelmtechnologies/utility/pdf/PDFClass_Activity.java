@@ -1,7 +1,7 @@
 package admin4.techelm.com.techelmtechnologies.utility.pdf;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.hendrix.pdfmyxml.viewRenderer.AbstractViewRenderer;
 

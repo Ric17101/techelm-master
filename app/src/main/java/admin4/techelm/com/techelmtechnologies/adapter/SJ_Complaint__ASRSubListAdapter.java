@@ -7,7 +7,7 @@ package admin4.techelm.com.techelmtechnologies.adapter;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,7 +30,6 @@ import admin4.techelm.com.techelmtechnologies.model.servicejob.ServiceJobComplai
 import admin4.techelm.com.techelmtechnologies.utility.view.ExpandableHeightListView;
 
 import static admin4.techelm.com.techelmtechnologies.utility.Constants.ACTION_DELETE_DETAILS;
-import static admin4.techelm.com.techelmtechnologies.utility.Constants.ACTION_VIEW_TASK;
 import static admin4.techelm.com.techelmtechnologies.utility.Constants.LIST_DELIM;
 
 /**
